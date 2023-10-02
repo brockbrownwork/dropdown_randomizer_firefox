@@ -36,7 +36,7 @@ const targetForm = document.getElementsByTagName("form")[2];
 
 // Create the button
 const randomizeButton = document.createElement("img");
-randomizeButton.src = chrome.runtime.getURL("assets/randomize.png");
+randomizeButton.src = browser.runtime.getURL("assets/randomize.png");
 randomizeButton.onclick = randomizeDropdowns;
 
 // Style or add any attributes if needed
