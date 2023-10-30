@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Neopets Classic Dropdown Randomizer",
-  "version": "0.21",
+  "version": "0.22",
   "description": "Save a little time with the dropdown :)",
   "permissions": ["storage", "tabs", "<all_urls>"],
   "content_scripts": [

@@ -1,6 +1,6 @@
 (() => {
 
-  let currentURL = window.location.href;
+  var currentURL = window.location.href;
   if (currentURL.includes("medieval/grumpyking") ||
      currentURL.includes("brightvale/wiseking")) {
      // Function to select a random option from a dropdown menu, excluding the first option
